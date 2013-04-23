@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
     switch(ch) {
 
         case 1:
-
+             /* Power On*/
             i=virDomainCreate(vdp);
             if(i==0)
             {
